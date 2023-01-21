@@ -1,0 +1,9 @@
+{
+  "httpRequest": {
+    "method": "GET",
+    "path": "/view/cart"
+  },
+  "httpResponse": {
+    "body": "some_response_body"
+  }
+}
