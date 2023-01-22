@@ -1,10 +1,10 @@
-package br.com.master.stack.resilience;
+package br.com.master.stack.customer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ResilienceApplicationTests {
+class CustomerApplicationTests {
 
 	@Test
 	void contextLoads() {

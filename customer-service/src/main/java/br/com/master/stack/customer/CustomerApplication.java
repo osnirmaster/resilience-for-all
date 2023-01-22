@@ -1,13 +1,13 @@
-package br.com.master.stack.resilience;
+package br.com.master.stack.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResilienceApplication {
+public class CustomerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ResilienceApplication.class, args);
+		SpringApplication.run(CustomerApplication.class, args);
 	}
 
 }

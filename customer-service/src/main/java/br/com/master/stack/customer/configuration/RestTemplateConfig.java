@@ -1,4 +1,4 @@
-package br.com.master.stack.resilience.configuration;
+package br.com.master.stack.customer.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
