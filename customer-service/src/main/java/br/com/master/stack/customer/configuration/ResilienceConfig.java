@@ -21,9 +21,11 @@ public class ResilienceConfig {
                 .automaticTransitionFromOpenToHalfOpenEnabled(true)
                 .enableAutomaticTransitionFromOpenToHalfOpen()
                 .failureRateThreshold(50)
-                .waitDurationInOpenState(Duration.ofMillis(1000))
+                .minimumNumberOfCalls(5)
+                .waitDurationInOpenState(Duration.ofMillis(500))
                 .permittedNumberOfCallsInHalfOpenState(2)
                 .slidingWindowSize(2)
+                .slidingWindowType(CircuitBreakerConfig.SlidingWindowType.COUNT_BASED)
                 .recordExceptions(
                         IOException.class,
                         TimeoutException.class,
