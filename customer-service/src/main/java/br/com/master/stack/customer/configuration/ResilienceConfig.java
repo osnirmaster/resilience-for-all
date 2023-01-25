@@ -24,7 +24,7 @@ public class ResilienceConfig {
                 .minimumNumberOfCalls(5)
                 .waitDurationInOpenState(Duration.ofMillis(500))
                 .permittedNumberOfCallsInHalfOpenState(2)
-                .slidingWindowSize(2)
+                .slidingWindowSize(10)
                 .slidingWindowType(CircuitBreakerConfig.SlidingWindowType.COUNT_BASED)
                 .recordExceptions(
                         IOException.class,
